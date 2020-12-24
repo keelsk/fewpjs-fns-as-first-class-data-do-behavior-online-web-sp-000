@@ -14,13 +14,11 @@ function greet(time){
   let message = time; 
   let hour = parseInt(time.substring(0,2));
   if (hour < 12) {
-  return "Good Morning";
+  message = "Good Morning";
   } else if (hour > 12 && hour < 17) {
-    return "Good Afternoon";
+    message = "Good Afternoon";
   } else if (hour > 17 && hour <25) {
-    return "Good Evening";
-  } else {
-    return time;
+    message = "Good Evening";
   }
   return message; 
 }
