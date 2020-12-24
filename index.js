@@ -16,8 +16,10 @@ function greet(time){
   return "Good Morning";
   } else if (hour > 12 && hour < 17) {
     return "Good Afternoon";
-  } else {
+  } else if (hour > 17 && hour <25) {
     return "Good Evening";
+  } else {
+    return time;
   }
 }
 /* Write your implementation of displayMessage() */
