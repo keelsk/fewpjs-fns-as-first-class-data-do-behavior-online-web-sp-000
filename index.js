@@ -11,6 +11,6 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time){
-  
+  time.substring(0,2).to_i;
 }
 /* Write your implementation of displayMessage() */
