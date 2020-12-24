@@ -11,6 +11,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time){
+  let message = time; 
   let hour = parseInt(time.substring(0,2));
   if (hour < 12) {
   return "Good Morning";
@@ -21,6 +22,7 @@ function greet(time){
   } else {
     return time;
   }
+  return message; 
 }
 /* Write your implementation of displayMessage() */
 
